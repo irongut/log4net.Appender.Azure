@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <ProjectGuid>{CCD932AA-83E1-4FF2-B3F4-DB57295CBB30}</ProjectGuid>
         <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Azure.Storage.Blobs" Version="12.13.0" />
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
         <PackageReference Include="Azure.Storage.Queues" Version="12.11.0" />
         <PackageReference Include="log4net" Version="2.0.15" />
         <PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.8" />
